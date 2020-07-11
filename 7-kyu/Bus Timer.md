@@ -89,12 +89,16 @@ on the main function(busTimer(time)) she assigned busDepartures to this function
 The main Function contains global functions mathematical calculations and array methods to find the right return value.
 
 
-*** function - explicit return**: The function is long with a `return` statement.
+**function - explicit return**: The function is long with a `return` statement.
 
 **parsInt**: function parses a string and returns an integer
+
 **map**: Array method to Create a new array with the result of calling a function for each array element
+
 **find**: Returns the value of the first element in an array that pass a test. 
    >it will find the first possible answer
+   
+   
 **+, -, %, +** combine the argument with values to calculate the correct solution.
 
 ### Possible Refactors
@@ -131,7 +135,9 @@ restnek approched the problem with relatively short function by declaring the ma
 Just like StephanieCunnane, restnek has also used global functions and  mathematical calculations.But the shortness of the function makes it easier to use.
 
 **map**
+
 **if statement**
+
 **+, -, %, +**
 
 
@@ -145,7 +151,7 @@ This strategy could also be implemented using these (but not only these) Impleme
 ## Notes
 the function below can also work as a solution the only problem with it is, it doesn't transform hours to minutes
 ```js
-let li = [10, 10, 5, 'GO NOW!', 45, 65, 'GO NOW!', 358, 355, 'GO NOW!'], i = 0
+let li = [10, 10, 5, 'GO NOW!', 45, 65, 'GO NOW!', 358, 355, 'GO NOW!'], [i = 0]
 function BusTimer(curTime) {
        return li[i++]
 }
