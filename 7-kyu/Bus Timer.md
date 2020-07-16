@@ -79,14 +79,14 @@ function busTimer(time) {
 
 ### Strategy
 
-StephanieCunnane chose to declare two functions that interact with each other.Though it is a long work it made  the functions for me easy to understand.
-
+StephanieCunnane chose to create two solutions that interact with each other.First she defined the exact departure time by putting the first and last bus departure times on a series and adding 15 min at each iteration.
+On the second solution she determined the current time by splitting the minutes and hours. she also declared the 5 minutes walk to bus stop which she eventually use it in calculation with the first solution to find the return value . 
+ 
 ### Implementation
 
-she wrote the first function just to create that the bus leaves every 15min starting 06:00 upto 00:00.
-on the main function(busTimer(time)) she assigned busDepartures to this function.
+Her fist function include simple calculation and a loop to find the return value (departures)
 
-The main Function contains global functions mathematical calculations and array methods to find the right return value.
+The main Function Impliments the first function, mathematical calculations and array methods to find the right return value.
 
 
 *** function - explicit return**: The function is long with a `return` statement.
@@ -124,11 +124,11 @@ function busTimer(time) {
 
 ### Strategy
 
-restnek approched the problem with relatively short function by declaring the main variables and assigning a detailed value to get the return value.
-
+restnek approched the problem with relatively short solution.They also split up  the time for a calculation and added  5 minutes walk to the bus-stop to get the total minutes.They argued also if the total minutes less than the first bus, then  the first bus should be deducted from the total minutes.At the end they used a calculation that determines the exact return value by deducting and differentiating the bus arrival minutes(15) with total minutes. 
+ 
 ### Implementation
 
-Just like StephanieCunnane, restnek has also used global functions and  mathematical calculations.But the shortness of the function makes it easier to use.
+Just like StephanieCunnane, restnek has also used return function, mathematical calculations and if statement.But the shortness of the function makes it easier to use.
 
 **map**
 **if statement**
