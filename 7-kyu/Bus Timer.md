@@ -84,9 +84,8 @@ On the second solution she determined the current time by splitting the minutes 
  
 ### Implementation
 
-Her fist function include simple calculation and a loop to find the return value (departures)
-
-The main Function Impliments the first function, mathematical calculations and array methods to find the right return value.
+Her first function include simple calculation and a loop to find the return value (departures)
+The main Function Implements the first function, mathematical calculations and array methods to find the right return value.
 
 
 **function - explicit return**: The function is long with a `return` statement.
